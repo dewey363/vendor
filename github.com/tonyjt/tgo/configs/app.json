@@ -1,0 +1,9 @@
+{
+	"Configs":{
+		"Env":"dev",
+		"UrlMqServer":"ip",
+		"AppSecretKey":"std::string",
+		"AppAccessLimitTime":"0",
+		"SignSwitch":"0"
+	}
+}

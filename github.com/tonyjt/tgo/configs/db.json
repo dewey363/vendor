@@ -1,0 +1,32 @@
+{
+	"Mysql":{
+		"DbName":"component",
+		"Pool":{
+			"PoolMinCap":10,
+			"PoolExCap":5,
+			"PoolMaxCap":40,
+			"PoolIdleTimeout":3600,
+			"PoolWaitCount":1000,
+			"PoolWaitTimeout":30
+		},
+		"Write":{
+			"Address":"ip",
+			"Port":3306,
+			"User":"root",
+			"Password":"root"
+		},
+		"Reads":[{
+			"Address":"ip",
+			"Port":3306,
+			"User":"root",
+			"Password":"root"
+		}]
+	},
+	"Mongo":{
+		"DbName":"com",
+		"Servers":"",
+		"Read_option":"PRIMARY",
+		"Timeout": 1000,
+		"PoolLimit":30
+	}
+}

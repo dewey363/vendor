@@ -1,0 +1,8 @@
+{
+	"Codes":{
+		"0":"success",
+		"1001":"success",
+		"1003":"system error",
+		"1004":"parameter issue"
+	}
+}
